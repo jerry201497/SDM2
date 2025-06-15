@@ -5,13 +5,13 @@ This submission contains all the required elements for the Knowledge Graph Lab A
 
 ---
 
-## 📁 Contents
+##Contents
 
-### 🔹 RDF and Ontology
+###RDF and Ontology
 - `tbox_research.rdfs`: RDFS ontology for the research domain.
 - `abox_research.rdf`: RDF ABOX instances based on extracted data.
 
-### 🔹 Python Scripts
+###Python Scripts
 - `extract_json.py`: Script used to extract and simulate research paper data.
 - `tbox_generator.py`: Generates the RDFS ontology using RDFLib.
 - `abox_research.py`: Generates RDF ABOX instances from JSON data.
@@ -19,17 +19,17 @@ This submission contains all the required elements for the Knowledge Graph Lab A
 - `PyKEEN_Experiments.py`: Trains and evaluates 4 KGE models (TransE, TransH, ComplEx, DistMult) and compares performance.
 - `PyKEEN_Exploitation.py`: Clusters author embeddings using KMeans and visualizes them with PCA.
 
-### 🔹 Documents
+###Documents
 - `knowledge_graph_report.docx`: Main report with methodology, results, SPARQL queries, KGE explanations, and plots.
 
-### 🔹 Output Files
+###Output Files
 - `kge_author_clusters.png`: Visualization of clustered author embeddings.
 - `kge_experiment_results.csv`: Evaluation results from different KGE models.
 - `kge_results.txt`: Output from TransE-based embedding prediction.
 
 ---
 
-## ✅ Tasks Covered
+##Tasks Covered
 - TBOX and ABOX definition with RDFLib
 - SPARQL querying and inference in GraphDB
 - Knowledge Graph Embeddings with PyKEEN
@@ -38,7 +38,7 @@ This submission contains all the required elements for the Knowledge Graph Lab A
 
 ---
 
-## 🔧 Requirements
+##Requirements
 - Python 3.8+
 - PyKEEN
 - RDFLib

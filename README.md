@@ -2,7 +2,7 @@
 
 This repository contains all required files for the SDM2 Knowledge Graph assignment.
 
-## 📂 Structure
+##Structure
 
 - `PyKEEN.py`: Main script to train a TransE model on the RDF triples.
 - `PyKEEN_Exploitation.py`: Uses trained embeddings to find the closest author to a selected paper.
@@ -12,7 +12,7 @@ This repository contains all required files for the SDM2 Knowledge Graph assignm
 - `requirements.txt`: Python dependencies required to run the scripts.
 - `README.md`: This file.
 
-## 💻 Usage
+##Usage
 
 ```bash
 pip install -r requirements.txt
@@ -21,7 +21,7 @@ python PyKEEN_Exploitation.py
 python PyKEEN_Experiments.py
 ```
 
-## 📌 Notes
+##Notes
 
 - The RDF file was preprocessed to ensure compatibility with PyKEEN (no literal objects).
 - Ensure that you are using Python 3.8+ and a compatible environment (Anaconda recommended).

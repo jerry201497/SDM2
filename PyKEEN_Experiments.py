@@ -7,11 +7,11 @@ models = ['TransE', 'ComplEx', 'DistMult', 'RotatE']
 results_summary = []
 
 for model_name in models:
-    print(f"🔍 Training model: {model_name}")
+    print(f"Training model: {model_name}")
     result = pipeline(
         model=model_name,
-        training=tf,       # ✅ correctly passed
-        testing=tf,        # ✅ required to avoid the ValueError
+        training=tf,       # correctly passed
+        testing=tf,        # required to avoid the ValueError
         training_kwargs={"num_epochs": 5},
         random_seed=42,
         device='cpu'
@@ -23,4 +23,4 @@ for model_name in models:
 with open("kge_model_comparison.txt", "w") as f:
     for model, mrr in results_summary:
         f.write(f"{model}: MRR = {mrr:.4f}\n")
-print("✅ Saved model comparison to kge_model_comparison.txt")
+print("Saved model comparison to kge_model_comparison.txt")
