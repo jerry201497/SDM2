@@ -1,0 +1,5 @@
+Model trained and evaluated successfully.
+Entities: 8551
+Relations: 8
+Triples: 11257
+MRR: 0.0947

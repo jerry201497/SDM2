@@ -2,7 +2,7 @@
 from rdflib import Graph, Namespace, RDF, XSD, URIRef, Literal
 import json
 
-with open("data_science_papers.json", "r", encoding="utf-8") as f:
+with open("extract_data/data_science_papers.json", "r", encoding="utf-8") as f:
     data = json.load(f)["data"]
 
 EX = Namespace("http://example.org/research/")

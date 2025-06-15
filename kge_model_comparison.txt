@@ -1,0 +1,4 @@
+TransE: MRR = 0.0338
+ComplEx: MRR = 0.0014
+DistMult: MRR = 0.0052
+RotatE: MRR = 0.3137
